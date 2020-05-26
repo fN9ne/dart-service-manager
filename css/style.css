@@ -195,6 +195,7 @@ body {
 }
 
 .header {
+  overflow: hidden;
   max-width: 2560px;
   width: 100%;
   height: 750px;
@@ -2396,6 +2397,16 @@ body {
 
   .team__text {
     width: 55.55556%;
+  }
+}
+
+@media (max-width: 360px) {
+  .team__picker picture {
+    width: 100px;
+  }
+
+  .team__picker input:checked + picture img {
+    width: 100px;
   }
 }
 
